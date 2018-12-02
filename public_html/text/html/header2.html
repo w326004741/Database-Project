@@ -1,0 +1,52 @@
+<br>
+
+<div class="container" id="myCarousel">
+    <!-- carousel slider 幻灯片 class="carousel slide" slider: 是体现切换时的滑动效果
+         data-ride="carousel": 指示器 name = carousel . data-interval="2000" : 设置轮播间隔时间 2S-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <!-- With indicators 有指标（当前有几个slider，目前的是哪一个）  -->
+        <ol class="carousel-indicators">
+            <!-- class="active 当前活动帧" -->
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        </ol>
+        <!-- carousel inner images and info 幻灯片内的图片及附加内容 
+                  Wrapper for slider-->
+        <div class="carousel-inner">
+            <!-- 轮播内容的每一帧都用 class="carousel-item"来表示，当前使用帧用active表示 
+                    alt="": if the image cannot be displayed, output the contents of alt 如果图片出不来，就显示altn内的内容 -->
+            <div class="carousel-item active">
+                <a href="popularProduct.php">
+                    <img class="d-block w-100 h-50" src="Images/home_popular_product.jpg"
+                        alt="Popular Products"></a>
+                <div class="carousel-caption d-none d-sm-block">
+                    <h5> Popular Products</h5>
+                    <p><b> Most popular products in here...</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="viewProduct.php">
+                    <img class="d-block w-100 h-50" src="Images/home_all_product.png"
+                        alt="All Products">
+                    <div class="carousel-caption d-none d-sm-block">
+                        <h5>All Products</h5>
+                        <p>
+                            <b>Some information.....</b>
+                        </p>
+                    </div>
+            </div>
+        </div>
+        <!-- previous button, href="" 用的是幻灯片的包装元素 id="carouselExampleControls" -->
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <!-- next button -->
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<!-- End myCarousel-->
