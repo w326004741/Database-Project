@@ -38,7 +38,7 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
 <td align="center" ><b>ProductName</b></td>
 <td align="center" ><b>CategoryID</b></td>
 <td align="center" ><b>Unit</b></td>
-<td align="center" ><b>Price</b></td>
+<td align="center" ><b>Quantity</b></td>
 <td align="center" ><b>Total quantities sold so far</b></td>
 
 

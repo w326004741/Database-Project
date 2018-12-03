@@ -36,7 +36,7 @@ VALUES ('$username', '$password', '$email')";
         if($result){
           echo "<div align='center'><img align='middle' class='image' src='https://gatesbbq.com/wp-content/uploads/2017/04/checkmarksuccess.gif' width='700' height='500'></div>";
           echo "<h1 align='center' style='color:red;'>Registered Successfully !</h1>";
-          header("refresh:1.5, url=http://danu6.it.nuigalway.ie/dbDeliverable/text/home.php");
+          header("refresh:1.5, url=login.php");
         }
       }else{
             

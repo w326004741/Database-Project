@@ -28,11 +28,12 @@ $result = mysqli_query($dbc, $sql);
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <title>Edit Product</title>
-      <h1 align="center"> Update Student </h1>
+      <br>
+      <h1 align="center"> Update Product </h1>
    </head>
 
    <body>
-        <div class="container" id="editProduct"  align="center">
+        <div class="container" id="editProduct">
 
             <form action="updateProduct.php" method="post"> 
 

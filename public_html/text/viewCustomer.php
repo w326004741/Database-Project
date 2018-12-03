@@ -32,6 +32,7 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
 <br>
 <div class="w3-container w3-teal bg-while  ">
   <h1 align="center">All Customers</h1>
+  <h3 align="center"><a href="vCustomer.php">Valuable Customer</a></h3>
 </div>
 <br>
 <table class="table table-striped" align="center" cellspacing="5" cellpadding="8" >
@@ -43,8 +44,8 @@ integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLP
 <td align="left" ><b>ContactName</b></td>
 <td align="left" ><b>City</b></td>
 <td align="left" ><b>Address</b></td>
-<td align="left" ><b>Country</b></td>
 <td align="left" ><b>PostalCode</b></td>
+<td align="left" ><b>Country</b></td>
 <td align="left" ><b>Order Status</b></td>
 
 
